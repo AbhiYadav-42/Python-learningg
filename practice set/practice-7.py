@@ -155,3 +155,6 @@ for i in range(1,11):
   print(f"{I} x {11-i} = {I*(11-i)}")
 
 
+
+
+
