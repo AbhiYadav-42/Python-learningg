@@ -5,7 +5,7 @@ friends=["Apple", "Orange",3,3.3443,"Akash",False]
 friends[0] #Apple 
 friends[4] # Akash
 # friends[70] #error
-friends[1:3] #[orange ,3] List slicing. This is same just like the Strings.
+print(friends[1:3]) #[orange ,3] List slicing. This is same just like the Strings.
 
 
 """
@@ -16,7 +16,7 @@ example,
 """
 
 friends[0]="Grapes"
-print(friends[0])
+print(friends)
                   # Grapes
 
 # List Methods

@@ -1,7 +1,8 @@
-f= "abhiyadav" 
-sliceSkip=f[1:9 : 4]    
-"""
--> This slices the string from index 1 to 8 (9 is exclusive), skipping every 4th character.
--> Characters at index positions 1, 5 are picked: 'b', 'y', and 'd' → so the result is 'byd'
-"""
-print(sliceSkip)
+friends=["Apple", "Orange",3,3.3443,"Akash",False]
+# As you can see we can store any value of any datatype in a List.
+
+#List can be indexed just like strings.
+friends[0] #Apple 
+friends[4] # Akash
+# friends[70] #error
+print(friends[1:3]) #[orange ,3] List slicing. This is same just like the Strings.
