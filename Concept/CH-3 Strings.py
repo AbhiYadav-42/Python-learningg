@@ -11,7 +11,7 @@ c= '''Harry '''   # Triple qouted string
           #what is does 
 Slice= a[0:3]
 """ in this case it starts from 0 index to the
-1 , excluding the 2 """
+1 , excluding the 3 """
 print(Slice) 
 
 
@@ -21,8 +21,8 @@ print(Slice)
 f= "abhiyadav" 
 sliceSkip=f[1:9 : 4]    
 """
--> This slices the string from index 1 to 8 (9 is exclusive), skipping every 3rd character.
--> Characters at index positions 1, 4, and 7 are picked: 'b', 'y', and 'd' → so the result is 'byd'
+-> This slices the string from index 1 to 8 (9 is exclusive), skipping every 4th character.
+-> Characters at index positions 1, 5 are picked: 'b', 'y' → so the result is 'by'
 """
 print(sliceSkip)
 
