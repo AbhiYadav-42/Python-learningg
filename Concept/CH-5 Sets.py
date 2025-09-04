@@ -16,9 +16,9 @@
 """
 
 s0={1,2,3,4,55,5,5,5,5,7,7,7,7,7}
-# print(s0)     #OUTOUT : {1, 2, 3, 4, 5, 55, 7}
+print(s0)     #OUTOUT : {1, 2, 3, 4, 5, 55, 7}
 
-s={}# it is a empty set
+s={}# it is a empty dictionary
 
 s1=() # This is an empty set
 
