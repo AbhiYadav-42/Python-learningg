@@ -1,4 +1,4 @@
-Name = "Abhi yadav"
+Name = "Abhi Yadav"
 
 #These are some funciton of strings.
 
