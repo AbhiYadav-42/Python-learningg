@@ -38,3 +38,57 @@ print (f" The factorial of{n} is {fac}")
 
 
 
+# Reverse a string
+String = input("enter: ")
+for i in reversed(String):
+  print(i, end="")
+  
+
+#   Count vowels in a string
+
+string = "Abhi Yadav"
+vo = ["a","e","i","o","u"]
+
+count = 0 
+for char in string:
+  if(char.lower() in vo):
+    count+=1
+print("there are ",count)
+
+
+# Find the maximum element in a list
+list = [1,2,3,4,5,6,7]
+maxVal =list[0]
+for i in list :
+  if i > maxVal:
+    maxVal=i
+  
+print(maxVal)
+
+# Right-angled triangle pattern
+"""
+*
+**
+***
+****
+*****
+
+"""
+n= int(input("enter: "))
+for i  in range(n+1):
+  print(" ")
+  print("*" * i, end = "")
+
+
+
+# Check prime numbers
+
+num = int(input("Enter: "))
+if num > 1:
+  for i in range(2,num):
+    if num % i == 0:
+     print(num, " it's not a prime number ")
+     break
+    else:
+     print(num, "is a prime ")
+     break

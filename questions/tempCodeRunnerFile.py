@@ -1,6 +1,9 @@
-fac = 1; 
-num = int(input("Number: "))
-while(i<=n):
-  fac *= i
-  i+=1
-print (f" The factorial of{n} is {fac}")
+num = int(input("Enter: "))
+if num > 1:
+  for i in range(2,num):
+    if num % i == 0:
+     print(num, " it's not a prime number ")
+     break
+    else:
+     print(num, "is a prime ")
+     break
