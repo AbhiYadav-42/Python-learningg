@@ -1,9 +1,8 @@
-n = int(input("Enter: "))
-a = 0 
-b = 1
+num = int(input("Enter: "))
 
-for i in range(1,n+1):
-  print(a , end =", ")
-  next = a +b
-  a = b
-  b = next
+n = len(str(num))
+total = sum(int(digit)** n for digit in str(num))
+if(total == num):
+    print(num, "is a Armstrong number")
+else: 
+    print(num, "is not a Armstrong number")

@@ -1,5 +1,8 @@
 
 # Print number 1 to 10:
+from unicodedata import digit
+
+
 for i in range (1,11):
   print(i)  
 
@@ -110,4 +113,15 @@ for i in range(1,n+1):
   b = next
 
 
-  
+# # Armstrong number check
+# Check if a number is an Armstrong number (e.g., 153 = 1³ + 5³ + 3³).
+# Use a loop to calculate powers.
+
+num = int(input("Enter: "))
+
+n = len(str(num))
+total = sum(int(digit)** n for digit in str(num))
+if(total == num):
+    print(num, "is a Armstrong number")
+else: 
+    print(num, "is not a Armstrong number")
