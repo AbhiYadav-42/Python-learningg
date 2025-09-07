@@ -1,9 +1,9 @@
-num = int(input("Enter: "))
-if num > 1:
-  for i in range(2,num):
-    if num % i == 0:
-     print(num, " it's not a prime number ")
-     break
-    else:
-     print(num, "is a prime ")
-     break
+n = int(input("Enter: "))
+a = 0 
+b = 1
+
+for i in range(1,n+1):
+  print(a , end =", ")
+  next = a +b
+  a = b
+  b = next

@@ -92,3 +92,22 @@ if num > 1:
     else:
      print(num, "is a prime ")
      break
+
+
+
+# Fibonacci sequence
+# Print the first n terms of the Fibonacci sequence using a for loop.
+# 👉 (e.g., 0, 1, 1, 2, 3, 5, 8...)
+
+n = int(input("Enter: "))
+a = 0 
+b = 1
+
+for i in range(1,n+1):
+  print(a , end =", ")
+  next = a +b
+  a = b
+  b = next
+
+
+  
