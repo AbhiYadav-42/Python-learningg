@@ -1,4 +1,8 @@
-n = int(input("Enter number of rows: "))
+"""Q-3"""
+def sum(n):
+  if(n==1):
+    return 1
+  return sum(n-1) + n
 
-for i in range(n, -1):   # start from n, go down to 1
-    print("*" * i)
+n=int(input("Enter the number: "))
+print(sum(n))

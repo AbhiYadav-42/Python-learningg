@@ -78,14 +78,14 @@ print(f"{n} inches in cm is {inch_to_cm(n)}")
 
 # Write a python funciton to remove a word from the list and strip at same time 
 """Q-6"""
-def rem(l, word):
+def re(l, word):
   n=[]
   for item in l:
     if not(item==word):
       n.append(item.strip(word))
       return n
 l= ["harry", "shubhan", "Rohan", "Abhya"]
-print(rem(l, "an"))
+print(re(l, "an"))
 
 #
 
