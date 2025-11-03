@@ -1,16 +1,14 @@
-Bouncer=print("What's your Age:")
-Age=int(input("My age is : "))
+class Employee:
+   def __init__(self):
+      print("constructor of employee")
+      a =1 
 
-if(Age>=21 and Age<60): 
-  print("Have a marvelous night sir 🙇‍♂️")
+class Manager(Employee):
+   def __init__(self):
+    super().__init__()  
+# super() calls the parent class constructor 
+    print("Constructor of manager")
+   c=3
+      #__init__ calls constructor of the base class  
 
-elif(Age<=0):
- print("B***H, This ain't funny 💢🤬 ")
-
-elif(Age>=60):
-  print("This way sir🙇")
-
-else:
-  print("What you think, Moron💢 ")
-  print("GET the F**k out of here🤬")
-print("Welcome")
+m= Manager()
