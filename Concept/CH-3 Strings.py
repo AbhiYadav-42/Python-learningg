@@ -18,13 +18,17 @@ print(Slice)
 #slicing skip value
 """---> basically we can skip value in the strng and then display it, let me show in the below example 
 """
+
 f= "abhiyadav" 
-sliceSkip=f[1:9 : 4]    
+sliceSkip=f[1:9 : 4]
+
 """
 -> This slices the string from index 1 to 8 (9 is exclusive), skipping every 4th character.
 -> Characters at index positions 1, 5 are picked: 'b', 'y' → so the result is 'by'
 """
 print(sliceSkip)
+
+
 
 
 
