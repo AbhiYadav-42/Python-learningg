@@ -153,24 +153,18 @@ censored_words = [
 ]
 
 
-def censor(text, censored_words):
-  for word in censored_words:
-    text=text.replace(word, "*" *len(word))
-  return text
 
 with open("abusive.txt") as f:
   content = f.read()
-
 # update = censor(content,censored_words)
-for word in censored_words:
-  content = content.replace(word, "*" *len(word))
-
 with open("abusive.txt","w") as f:
+  for word in censored_words:
+    content = content.replace(word, "*" *len(word))
   f.write(content)
 
 print(content)
 
-# Write a program to mine a log file and finf dout whether it contains'python'
+# Write a program to mine a log file and find dout whether it contains'python'
 
 """Q-6"""
 
