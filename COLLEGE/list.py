@@ -49,3 +49,32 @@ tup1[0] = 100
 tup = tuple(tup1) # conversion of list to tuple
 
 print (tup1)# This will raise an error because tuples are immutable
+
+
+#  print the tuples without its duplicate elements 
+tup1 = (1,2,3,4,5,3,2,1)
+print(tup1)
+set_tup = set(tup1)  # converting tuple to set to remove duplicate elements
+tup1 = tuple(set_tup) # converting set back to tuple
+print(tup1)
+
+
+#  Create a calucaltor 
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+choice = input("Enter operation (+, -, *, /): ")
+
+if choice == '+':
+    add = a+b
+    print("Addition:", add)
+elif choice == '-':    
+    sub = a-b
+    print("Subtraction:", sub)
+elif choice == '*':    
+    mu = a*b
+    print("Multiplication:", mu)
+elif choice == '/':     
+    div = a/b
+    print("Division:", div)
+

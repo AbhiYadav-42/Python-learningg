@@ -1,5 +1,5 @@
 # Write a program to read the text from a given file 'poems.txt' and find whether it contains the word "twinkle"
-"""Q-1"""
+"""Q-1
 f=open("Poems.txt")
 twinkle=f.read()
 if("twinkle"in twinkle):
@@ -7,7 +7,7 @@ if("twinkle"in twinkle):
 else:
   print("twinkle present in the poem")
 f.close()
-
+"""
 
 # The game() fucniton in program let a user play a game and returns the score as an integer. You need to read a file HI-score.txt which is either blank or contains the previous HI-SOCRE. You need to write a program to update the HI-socre whenever the game() fucniton  breaks the HI-Score.
 """Q-2

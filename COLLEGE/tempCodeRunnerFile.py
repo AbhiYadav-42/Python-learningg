@@ -1,4 +1,17 @@
 
-list = [1,2,0,4,0,6,0,7,78,]
-list  = set(list)
-print(type(list))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+choice = input("Enter operation (+, -, *, /): ")
+
+if choice == '+':
+    add = a+b
+    print("Addition:", add)
+elif choice == '-':    
+    sub = a-b
+    print("Subtraction:", sub)
+elif choice == '*':    
+    mu = a*b
+    print("Multiplication:", mu)
+elif choice == '/':     
+    div = a/b
+    print("Division:", div)
