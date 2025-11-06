@@ -34,8 +34,8 @@ my_tuple = (10, 20, 30, "Abhi")
 print(my_tuple[1]) 
 print(type(my_tuple))
 
-# Mixed tuple
 
+# Mixed tuple
 tup = (1, 'b' ,"Hello", 3.4, True, [1,2,3])
 print(tup)
 print(type(tup))
