@@ -16,7 +16,16 @@ print(s10.symmetric_difference(s9))
 print(s9.difference(s10))
 
 
-
+#  Typecasting converting list to set 
 list = [1,2,0,4,0,6,0,7,78,]
 list  = set(list)
 print(type(list))
+
+# Frozen method 
+# >  It is an immutable
+# >  It is an unordered
+# >  It contains the unique elements 
+# >  It is simalr to set but it cannot be modified after its creation 
+s4= frozenset([1,2,34,5,56,6])
+s4[3] = 10
+print("frozenset: ",s4)
