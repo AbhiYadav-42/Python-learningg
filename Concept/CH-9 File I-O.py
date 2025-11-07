@@ -130,3 +130,16 @@ print(y)
 
 
 
+
+#  using file I/0 in conversion 
+import json
+
+password = {"abhi@Gmail":  "mypass@123",
+            "github"    :  "supersecert",
+            "outlook"   :  "ABHI@12"}
+with open("Password.json", "w") as f:
+  json.dump(password,f)
+  
+with open("password,json", "w") as f:
+  pssword = json.load(f)
+print (password)
