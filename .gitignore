@@ -9,6 +9,9 @@ __pycache__/
 *.log
 *.csv
 
+# Ignore JSON files
+*.json
+
 # Ignore virtual environments
 .env/
 venv/
@@ -17,5 +20,6 @@ ENV/
 # Ignore IDE/editor configs
 .vscode/
 .idea/
-.json/
-tempCodeRunnerFile.py/
+
+# Ignore temp runner file
+tempCodeRunnerFile.py
