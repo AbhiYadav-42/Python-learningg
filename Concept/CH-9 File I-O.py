@@ -90,3 +90,43 @@ rt -->> Will open for read in text mode
 with open("thistext") as f:
   text= f.read()
 print(text)# print the content
+
+
+
+
+  # JSON in python 
+import json
+
+#  Parse JSON- Convert from JSON to python 
+#  >  If you have a JSON string, you can parse it by using the json.loads() methods 
+
+# some JSON:
+x = '{"name" : "John" , "age":30, "city" : "New York"} '
+
+#  Parse x:
+y = json.loads(x)
+
+# The result is a python dictionary 
+print(y["age"])
+
+
+
+
+#  Convert Python to JSON 
+import json
+#  a python object (dict):
+
+x = {
+  "name" : "jhon ", 
+  "age"  : 30,
+  "city" : "new York"
+}
+
+#  Convert into JSON 
+y = json.dumps(x)
+
+# The result is a JSON string:
+print(y)
+
+
+
