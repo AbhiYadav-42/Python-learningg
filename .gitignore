@@ -17,5 +17,5 @@ ENV/
 # Ignore IDE/editor configs
 .vscode/
 .idea/
-.json
-tempCodeRunnerFile.py
+.json/
+tempCodeRunnerFile.py/
