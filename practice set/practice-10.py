@@ -127,3 +127,33 @@ a.square()
 a.sqaureroot()
 a.cube()
 
+
+
+
+#  Bank 
+
+class bankAccount:
+  def __init__(self,balance):
+    self.balance = balance
+    
+  def deposit(self,amount):
+    self.balance+=amount
+  
+  def show(self):
+    print(f"New balance after depositing more money: {self.balance}")
+    
+  def withdraw(self,amount):
+    if amount > self.balance:
+      print("Not enough balance")
+    else:
+      self.balance -=amount
+      print(f"Amount withdrawed :{amount}\n Your remaning balance is {self.balance}")
+      
+      
+      
+acc1  = bankAccount(1000)
+print(f"Iniital deposit: {acc1.balance}")
+
+acc1.deposit(500)
+acc1.show()
+acc1.withdraw(1200)
