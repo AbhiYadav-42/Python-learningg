@@ -22,4 +22,6 @@ ENV/
 .idea/
 
 # Ignore temp runner file
-tempCodeRunnerFile.py
+tempCodeRunnerFile.
+.venv/
+
